@@ -1,0 +1,21 @@
+version: "3.9"
+
+volumes:
+  jenkins-home:
+
+networks:
+  jenkins:
+
+services:
+  jenkins:
+    image: jenkins/jenkins:latest-jdk17
+    container_name: jenkins
+    networks:
+      - jenkins
+    environment:
+      JAVA_OPTS: "-Djava.awt.headless=true"
+    restart: unless-stopped
+    ports:
+      - "80:8080"
+    volumes:
+      - jenkins-home:/var/jenkins_home

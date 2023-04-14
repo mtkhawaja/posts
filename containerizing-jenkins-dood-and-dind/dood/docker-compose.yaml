@@ -1,0 +1,24 @@
+version: "3.9"
+
+volumes:
+  jenkins-home:
+
+networks:
+  jenkins:
+
+services:
+  jenkins:
+    container_name: jenkins
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    networks:
+      - jenkins
+    environment:
+      JAVA_OPTS: "-Djava.awt.headless=true"
+    restart: unless-stopped
+    ports:
+      - "80:8080"
+    volumes:
+      - jenkins-home:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
