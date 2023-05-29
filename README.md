@@ -8,5 +8,6 @@
   configuration is a critical part of any software development project. By understanding the different types
   of configurations, sources, and best practices, you can ensure that your applications are secure, portable, and
   scalable.
+- [Configuring Java Applications](./configuring-java-applications/README.md): A quick reference for configuring Java applications using environment variables, system properties, command line arguments, and files.
 - [SSH Key Generation & SSH Agent Configuration: A Quick Reference For Secure Remote Access](./ssh-key-generation-and-ssh-agent-configuration/README.md):
   A quick reference guide for generating SSH keys, configuring an ssh-agent via keychain and more.
