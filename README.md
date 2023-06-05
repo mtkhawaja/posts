@@ -1,5 +1,6 @@
 # posts
 
+- [Application List](./application-list): A collection of tools, applications and utilities (typically free and open source) that I like to have installed.
 - [Containerizing Jenkins, DooD and DinD](./containerizing-jenkins-dood-and-dind/README.md): Learn to containerize
   Jenkins and run
   Docker commands with Docker inside Docker (DinD) or Docker outside of Docker (DooD). DinD makes Jenkins' containers
