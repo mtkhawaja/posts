@@ -7,3 +7,4 @@
 - [Introduction to Application Configuration](./introduction-to-application-configuration/README.md): Application configuration is a critical part of any software development project. By understanding the different types of configurations, sources, and best practices, you can ensure that your applications are secure, portable, and scalable.
 - [SSH Key Generation & SSH Agent Configuration: A Quick Reference For Secure Remote Access](./ssh-key-generation-and-ssh-agent-configuration/README.md): A quick reference guide for generating SSH keys, configuring an ssh-agent via keychain and more.
 - [Spring AI with OpenAI Models](./spring-ai-with-open-ai-models/README.md): Dive straight into using Spring AI with Open AI models via the quick start project and explore the integration.
+- [Development Environment](development-environment/README.md): A reference for my development environment setup.
